@@ -1,0 +1,73 @@
+main{
+    background-image: url(Vetores/linhas/Vectorestudo.svg);
+    background-position-y: 120px;
+}
+
+
+#areaprincipal h2{
+    color: #1F3B7A;
+}
+
+section h2{
+    color: black;
+}
+#area-estudo{
+    margin-top: 8em;
+    background-color: #1F3B7A;
+}
+
+#area-estudo div{
+    background-image: url(Fundos/Estudo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1200px;
+}
+
+
+#biblioteca, .lista-livros{
+    background-color: #C6D7FF;
+}
+#biblioteca{
+    padding: 5em 0;
+
+}
+#biblioteca h3{
+    font-size: 40px;
+    font-weight: 400;
+    color: black;
+}
+
+#biblioteca p{
+    font-size: 30px;
+    color: #1F3B7A;
+}
+
+#biblioteca ol{
+    display: flex;
+}
+#biblioteca li{
+    padding-left: 60px;
+}
+.lista-livros{
+    margin: 5em 0;
+
+}
+
+.lista-livros > div{
+    display: block;
+}
+.os-livros{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.lista-livros div h3{
+    margin-bottom: 1em;
+
+}
+.os-livros div{
+    text-align: center;
+    
+}

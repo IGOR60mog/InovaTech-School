@@ -1,0 +1,242 @@
+@media screen and (min-width: 1641px) {
+    .container{
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    
+
+    button{
+        display: none;
+    }
+
+    figure img{
+        display: block;
+        width: 100%;
+    }
+
+    span#ITS{
+        display: inline;
+    }
+
+    span#IT{
+        display: none;
+    }
+    #Gradue-se figure, #Gradue-se div div{
+        margin: 2em auto;
+        
+    }    
+
+    #Gradue-se figure{
+        width: 715px;
+    }
+}
+
+@media screen and (min-width: 1301px) and (max-width: 1640px) {
+
+
+    figure img, #areaprincipal{
+        max-width: 450px;
+        height: auto;
+    }
+    
+    button{
+        display: none;
+    }
+
+    #areaprincipal p, #areaprincipal a, #Gradue-se a, #Gradue-se p{
+        font-size: 20px;
+    }
+
+    #areaprincipal span{
+        font-size: 50px;
+    }
+
+    span#ITS{
+        display: none;
+    }
+
+    span#IT{
+        display: inline;
+    }
+
+    main{
+        background-position-y: 148px;
+    }
+
+    #Gradue-se div div{
+        max-width: 450px;
+        text-align: center;
+    }
+    
+    .Qualificações div{
+        gap: 1.5em;
+    }
+
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1300px) {
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    }
+    main{
+        background-position-y: 500px;
+    }
+
+    button{
+        display: none;
+    }
+
+    span#ITS{
+        display: inline;
+    }
+
+    span#IT{
+        display: none;
+    }
+    
+    figure img{
+        display: block;
+        width: 100%;
+    }
+
+    #areaprincipal{
+        height: 500px;
+        width: 100%;
+    }
+
+    #Gradue-se img{
+        margin-top: 2em;
+    }
+
+    #areaprincipal{
+        height: 500px;
+    }
+
+    #fundador img{
+        display: none;
+    }
+
+    #fundador div{
+        background-color: #1f3b7a;
+        background-image: none;
+        padding: 1em 0;
+    }
+
+}
+
+
+@media screen and (max-width: 767px){
+
+    .container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav ol{
+        display: none;
+    }
+
+    header > .container{
+       max-width: 90%;
+       margin-left: auto;
+    }
+    button{
+        display: block;
+    }
+
+    #areaprincipal{
+        height: 600px;
+    }
+
+    #areaprincipal h2{
+        text-align: center;
+    }
+
+    span#ITS{
+        display: none;
+    }
+
+    span#IT{
+        display: inline;
+    }
+
+    main{
+        background-image: none;
+    }
+
+    #Cadastre-se{
+        background-image: none;
+        background-color: #407CFF;
+    }
+    figure img{
+        display: none;
+    }
+
+    h1{
+        padding-left: 2em;
+    }
+
+    #Gradue-se a{
+        display: block;
+        width: 120px;
+        margin: 1.5em auto;
+    }
+
+    form p{
+        text-align: left;
+        padding-left: 2em;
+    }
+
+    #area-estudo div{
+        max-width: 100%;
+    }
+
+    #fundador{
+        display: none;
+    }
+
+    div.curso-lateral{
+        max-width: 90%;
+    }
+
+    div#modal{
+        left: 20%;
+    }
+
+    .Qualificações h2{
+        font-size: 60px;
+    }
+
+    .logo{
+        padding: 1em 0;
+    }
+    .topo{
+        justify-content: center;
+    }
+    .topo ul{
+        margin: 1em 0;
+    }
+    #experiencias{
+        margin-top: 3em;
+    }
+    #experiencias div div{
+        display: block;
+
+    }
+    
+    #experiencias div div div{
+        width: 100%;
+    }
+
+    #experiencias h3{
+        font-size: 34px;
+    }
+    .curso-lateral h3, section h2 {
+        font-size: 40px;
+    }
+
+    form p, input[type="submit"] {
+        width: 8em;}
+}

@@ -1,0 +1,92 @@
+
+main{
+    background-image: url(Vetores/linhas/Vectorcurso.svg);
+    background-position-y: 120px;
+}
+
+
+#areaprincipal h2{
+    color: #7E40FF;
+}
+
+section h2{
+    color: black;
+}
+#Profisionalizantes{
+    margin-top: 3em;
+    background-color: #7E40FF;
+}
+
+#Profisionalizantes h2{
+        text-align: center;
+        padding: 3em 0;
+}
+#Profisionalizantes div.cursos{
+    padding: 3em 0;
+    align-content: center;
+}
+
+#Profisionalizantes div.container{
+    display: flex;
+    gap: 90px;
+}
+div.curso-lateral{
+    color: white;
+    max-width: 48%;
+    display: flex;
+    flex-direction: column;
+    padding: 2em 0;
+}
+.curso-lateral p{
+    color: white;
+}
+.curso-lateral h3{
+    font-size: 50px;
+    font-weight: 400;
+}
+div.curso-lateral ol{
+    margin: 1em 0;
+    display: flex;
+    margin: 1em auto;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+
+#ti{
+    background-color: #23225A;
+    
+}
+
+#ti div, #seguranca div, #marketing div{
+    flex-direction: row-reverse;
+}
+
+#ti div div, #seguranca div div, #marketing div div{
+    flex-direction: column;
+    
+}
+
+.curso-lateral{
+    gap: 1em;
+    justify-content: space-between;}
+    
+#desenvolvimento{
+    background-color: #2D2587;
+}
+
+#seguranca{
+    background-color: #3539AB;
+}
+
+.botao{
+    border: 2px solid white;
+    border-radius: 30px;
+}
+
+#sistemas{
+    background-color: #233862;
+}
+#marketing{
+    background-color: #001641;
+}
